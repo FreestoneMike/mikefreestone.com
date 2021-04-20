@@ -1,8 +1,17 @@
 @keyframes blink {
   0%, 100% {
-    color: red;
+    background-color: transparent;
   } 
   50% {
-    color: lightgrey;
+    background-color: lightgrey;
+  }
+}
+
+@keyframes text-reveal {
+  0% {
+    width: 0rem;
+  }
+  100% {
+    width: 15.625rem;
   }
 }

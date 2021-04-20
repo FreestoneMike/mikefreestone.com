@@ -35,18 +35,16 @@
     font-size: 1.25rem;
     font-weight: 400;
     margin-right: .25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 15.625rem;
+    animation: text-reveal 1s linear;
   }
 
   &__blinking-cursor {
     width: .75rem;
     height: 1.5rem;
-    // animation: blink 1s infinite;
-    -webkit-animation-name: blink;
-    animation-name: blink;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+    animation: blink 1s infinite;
   }
 
   &__btn-container {

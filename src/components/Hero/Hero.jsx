@@ -18,7 +18,7 @@ function Hero() {
           <div className="hero__blinking-cursor"></div>
         </div>
           <div className="hero__btn-container">
-            <button className="hero__btn">Hire Mike</button>
+            <button className="hero__btn">Hire Me</button>
             <button className="hero__btn">I'm Feeling Lucky</button>
           </div>
       </section>
