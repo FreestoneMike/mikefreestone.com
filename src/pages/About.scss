@@ -9,10 +9,10 @@
   width: 100vw;
 
   &__header {
-    width: 40rem;
+    width: 42rem;
     text-align: center;
     font-weight: 400;
-    animation: header-reveal .5s ease-out;
+    animation: drop-reveal .5s ease-out;
 
     &--blue {
       color: $google-blue;

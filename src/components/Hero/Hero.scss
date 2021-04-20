@@ -38,7 +38,7 @@
     white-space: nowrap;
     overflow: hidden;
     width: 15.625rem;
-    animation: text-reveal 1s linear;
+    animation: text-reveal .75s linear;
   }
 
   &__blinking-cursor {

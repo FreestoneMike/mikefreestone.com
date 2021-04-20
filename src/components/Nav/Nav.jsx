@@ -16,7 +16,7 @@ function Nav() {
             <Link to="/about" className="nav__link">About</Link>
           </li>
           <li className="nav__item">
-            <Link className="nav__link">Work</Link>
+            <Link to="/work" className="nav__link">Work</Link>
           </li>
         </ul>
       </div>
@@ -28,10 +28,10 @@ function Nav() {
       <div className="nav__right-container">
         <ul className="nav__list">
           <li className="nav__item">
-            <Link className="nav__link">Contact</Link>
+            <Link to="/contact" className="nav__link">Contact</Link>
           </li>
           <li className="nav__item">
-            <Link className="nav__link">Resume</Link>
+            <Link to="/resume" className="nav__link">Resume</Link>
           </li>
         </ul>
       </div>

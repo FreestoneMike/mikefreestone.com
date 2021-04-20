@@ -1,12 +1,13 @@
 @use "../../partials/variables" as *;
 
 .nav {
-  position: absolute;
+  position: fixed;
   display: flex;
   height: 5.25rem;
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  background-color: white;
 
   & > * {
     width: 100%;
