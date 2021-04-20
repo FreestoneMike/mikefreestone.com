@@ -1,0 +1,30 @@
+@use "../partials/variables" as *;
+@use "../partials/animations" as *;
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  &__header {
+    width: 40rem;
+    text-align: center;
+    font-weight: 400;
+    animation: header-reveal .5s ease-out;
+
+    &--blue {
+      color: $google-blue;
+    }
+    &--red {
+      color: $google-red;
+    }
+    &--green {
+      color: $google-green;
+    }
+    &--yellow {
+      color: $google-yellow;
+    }
+  }
+}

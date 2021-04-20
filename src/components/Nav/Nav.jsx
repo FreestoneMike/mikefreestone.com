@@ -13,7 +13,7 @@ function Nav() {
       <div className="nav__left-container">
         <ul className="nav__list">
           <li className="nav__item">
-            <Link className="nav__link">About</Link>
+            <Link to="/about" className="nav__link">About</Link>
           </li>
           <li className="nav__item">
             <Link className="nav__link">Work</Link>
@@ -21,7 +21,9 @@ function Nav() {
         </ul>
       </div>
       <div className="nav__logo">
-        <img src={MikeLogo} alt="mike text with multiple colours"/>
+        <Link to="/">
+          <img src={MikeLogo} alt="mike text with multiple colours"/>
+        </Link>
       </div>
       <div className="nav__right-container">
         <ul className="nav__list">
