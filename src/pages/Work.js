@@ -18,7 +18,8 @@ function Work() {
         <img src={DownArrow} alt="colourful arrow pointing down" className="work-header__arrow"/>
       </div>
       <section className="work">
-        hello
+        <div className="work__projects-container">
+        </div>
       </section>
     </>
   )

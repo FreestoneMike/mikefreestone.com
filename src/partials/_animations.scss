@@ -1,3 +1,13 @@
+// Nav Bar
+@keyframes hover-reveal {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 // Home Page
 @keyframes blink {
   0%, 100% {

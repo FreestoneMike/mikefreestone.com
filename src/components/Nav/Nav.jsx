@@ -12,10 +12,10 @@ function Nav() {
     <nav className="nav">
       <div className="nav__left-container">
         <ul className="nav__list">
-          <li className="nav__item">
+          <li className="nav__item nav__item--blue">
             <Link to="/about" className="nav__link">About</Link>
           </li>
-          <li className="nav__item">
+          <li className="nav__item nav__item--red">
             <Link to="/work" className="nav__link">Work</Link>
           </li>
         </ul>
@@ -27,10 +27,10 @@ function Nav() {
       </div>
       <div className="nav__right-container">
         <ul className="nav__list">
-          <li className="nav__item">
+          <li className="nav__item nav__item--green">
             <Link to="/contact" className="nav__link">Contact</Link>
           </li>
-          <li className="nav__item">
+          <li className="nav__item nav__item--yellow">
             <Link to="/resume" className="nav__link">Resume</Link>
           </li>
         </ul>

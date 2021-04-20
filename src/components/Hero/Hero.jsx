@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 // ASSET IMPORTS
 import Freestone from "../../assets/logos/Freestone.svg";
@@ -18,7 +19,7 @@ function Hero() {
           <div className="hero__blinking-cursor"></div>
         </div>
           <div className="hero__btn-container">
-            <button className="hero__btn">Hire Me</button>
+            <Link to="/contact" className="hero__btn">Hire Me</Link>
             <button className="hero__btn">I'm Feeling Lucky</button>
           </div>
       </section>
