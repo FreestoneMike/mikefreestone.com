@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+// ASSET IMPORTS
 import MikeLogo from "../../assets/logos/mike.svg";
 
 // STYLES IMPORT
@@ -19,7 +21,7 @@ function Nav() {
         </ul>
       </div>
       <div className="nav__logo">
-        <img src={MikeLogo} alt=""/>
+        <img src={MikeLogo} alt="mike text with multiple colours"/>
       </div>
       <div className="nav__right-container">
         <ul className="nav__list">

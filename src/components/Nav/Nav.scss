@@ -1,10 +1,12 @@
 @use "../../partials/variables" as *;
 
 .nav {
+  position: absolute;
   display: flex;
   height: 5.25rem;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 
   &__left-container {
 
@@ -20,5 +22,6 @@
     text-decoration: none;
     color: $black;
     margin: 1rem;
+    font-family: Roboto;
   }
 }
