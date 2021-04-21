@@ -1,0 +1,73 @@
+@use "../partials/variables" as *;
+@use "../partials/mixins" as *;
+@use "../partials/animations" as *;
+
+.contact {
+  @include flex-center;
+  height: 100vh;
+  width: 100%;
+
+  &__container {
+    display: flex;
+    width: 42rem;
+
+    & > * {
+      width: 50%;
+    }
+  }
+
+  &__img-container {
+    @include flex-center;
+    margin-right: 2rem;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  &__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    animation: drop-reveal .5s ease-out;
+  }
+
+  &__greeting {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+
+    &--title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__btn {
+    @include flex-center;
+    border: none;
+    font-size: 1rem;
+    width: 7.25rem;
+    height: 3rem;
+    background-color: $google-green;
+    color: white;
+    border-radius: 5px; 
+    margin-bottom: 1rem;
+    text-decoration: none;
+    transition: all .2s ease-out;
+
+    &:hover {
+      cursor: pointer;
+      background-color: white;
+      border: 2px solid $google-green;
+      color: $google-green;
+    }
+  }
+
+  &__icon-container {
+    display: flex;
+  }
+
+  &__icon {
+    margin-right: 2rem;
+    width: 2.5rem;
+    animation: drop-reveal .5s ease-out;
+  }
+}

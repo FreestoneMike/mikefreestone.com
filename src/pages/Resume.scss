@@ -12,12 +12,12 @@
     width: 60%;
     height: 49.5rem;
     margin-bottom: 5.25rem;
-    margin-top: 25rem;
+    margin-top: 45rem;
     z-index: -1;
   }
-
   
   &__container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
