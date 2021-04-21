@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import React from 'react'
 
 // COMPONENT IMPORTS
@@ -12,6 +13,11 @@ import DownArrow from "../assets/icons/down-arrow.svg";
 import "./Work.scss";
 
 function Work() {
+
+  useEffect(() => {
+    document.title = "Mike Freestone | Projects";
+  }, []);
+
   return (
     <>
       <section className="work-header">

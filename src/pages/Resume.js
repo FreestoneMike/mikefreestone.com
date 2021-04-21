@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import React from 'react';
 
 // ASSET IMPORTS
@@ -9,6 +10,11 @@ import "./Resume.scss";
 import "../pages/Work.scss";
 
 function Resume() {
+
+  useEffect(() => {
+    document.title = "Mike Freestone | Resume";
+  }, []);
+
   return ( 
     <>
       <section className="work-header">

@@ -1,9 +1,15 @@
+import { useEffect } from 'react'
 import React from 'react'
 
 // STYLES IMPORT
 import "./About.scss";
 
 function About() {
+
+  useEffect(() => {
+    document.title = "Mike Freestone | About";
+  }, []);
+  
   return (
     <div className="about">
       <h1 className="about__header">

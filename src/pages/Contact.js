@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import React from 'react';
 
 // ASSET IMPORTS
@@ -9,6 +10,11 @@ import LinkedInLogo from "../assets/icons/linked-in-logo.png"
 import "./Contact.scss";
 
 function Contact() {
+
+  useEffect(() => {
+    document.title = "Mike Freestone | Contact";
+  }, []);
+
   return (
     <section className="contact">
       <div className="contact__container">
