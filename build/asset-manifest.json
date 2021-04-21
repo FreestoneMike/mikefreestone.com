@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.182446b1.chunk.css",
+    "main.js": "/static/js/main.4d048d35.chunk.js",
+    "main.js.map": "/static/js/main.4d048d35.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1ccbcd7b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1ccbcd7b.js.map",
+    "static/js/2.57d37221.chunk.js": "/static/js/2.57d37221.chunk.js",
+    "static/js/2.57d37221.chunk.js.map": "/static/js/2.57d37221.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.182446b1.chunk.css.map": "/static/css/main.182446b1.chunk.css.map",
+    "static/js/2.57d37221.chunk.js.LICENSE.txt": "/static/js/2.57d37221.chunk.js.LICENSE.txt",
+    "static/media/Freestone.eb0c05ba.svg": "/static/media/Freestone.eb0c05ba.svg",
+    "static/media/index.scss": "/static/media/Poppins-Regular.ad19729d.woff2",
+    "static/media/connect-md-logo.851c68d3.jpg": "/static/media/connect-md-logo.851c68d3.jpg",
+    "static/media/down-arrow.92a07a01.svg": "/static/media/down-arrow.92a07a01.svg",
+    "static/media/freestone-resume-Q12021.fa3ac1c9.pdf": "/static/media/freestone-resume-Q12021.fa3ac1c9.pdf",
+    "static/media/mike-freestone-home.fd5d9944.jpg": "/static/media/mike-freestone-home.fd5d9944.jpg",
+    "static/media/mike.cb9b0abe.svg": "/static/media/mike.cb9b0abe.svg",
+    "static/media/profile-photo.c138bc17.jpg": "/static/media/profile-photo.c138bc17.jpg",
+    "static/media/search-icon.4d6f45b3.svg": "/static/media/search-icon.4d6f45b3.svg",
+    "static/media/turf-thumbnail2.72491efc.jpg": "/static/media/turf-thumbnail2.72491efc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ccbcd7b.js",
+    "static/js/2.57d37221.chunk.js",
+    "static/css/main.182446b1.chunk.css",
+    "static/js/main.4d048d35.chunk.js"
+  ]
+}
