@@ -1,5 +1,10 @@
 import React from 'react'
 
+// COMPONENT IMPORTS
+import ProjectCardTurf from "../components/ProjectCards/ProjectCardTurf";
+import ConnectMDCard from "../components/ProjectCards/ConnectMDCard";
+import MikeFreestoneCom from "../components/ProjectCards/MikeFreestoneCom";
+
 // ASSET IMPORTS
 import DownArrow from "../assets/icons/down-arrow.svg";
 
@@ -19,8 +24,12 @@ function Work() {
       </div>
       <section className="work">
         <div className="work__projects-container">
+          <ConnectMDCard />
+          <ProjectCardTurf />
+          <MikeFreestoneCom />
         </div>
       </section>
+      
     </>
   )
 }

@@ -1,5 +1,6 @@
 @use "../partials/variables" as *;
 @use "../partials/animations" as *;
+@use "../partials/mixins" as *;
 
 .work-header {
   display: flex;
@@ -49,5 +50,7 @@
 
   &__projects-container {
     display: flex;
+    justify-content: space-evenly;
+    width: 100%;
   }
 }
