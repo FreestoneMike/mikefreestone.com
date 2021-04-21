@@ -18,7 +18,7 @@ function MikeFreestoneCom() {
           Of course, I'm building my own personal portfolio using React.js, and the code is publicly available on my GitHub! 
         </p>
         <p className="project__info">
-          <br/>I'm still working on it, but if you're interested, you can view the code through the link below! 
+          <br/>I'm excited to continue working on it, but if you're so excited that you can't wait, you can view the code through the link below! 
         </p>
       </div>
       <a href="https://github.com/FreestoneMike" target="blank" className="project__link">
