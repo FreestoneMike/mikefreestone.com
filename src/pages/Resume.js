@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import React from 'react';
 
 // ASSET IMPORTS
-import ResumeFile from "../assets/files/freestone-resume-Q12021.pdf";
+import ResumeFile from "../assets/files/freestone-resume-2021.jpg";
 import DownArrow from "../assets/icons/down-arrow.svg";
 
 // STYLES IMPORTS
@@ -23,11 +23,13 @@ function Resume() {
         </div>
       </section>
       <div className="work-header__arrow-container">
-        <img src={DownArrow} alt="colourful arrow pointing down" className="work-header__arrow"/>
+        <a href="#resume-anchor">
+          <img src={DownArrow} alt="colourful arrow pointing down" className="work-header__arrow"/>
+        </a>
       </div>
       <section className="resume__container">
-        <div className="resume">
-          <iframe src={ResumeFile} className="resume__frame" frameborder="0"></iframe>
+        <div className="resume" id="#resume-anchor">
+          <img src={ResumeFile} className="resume__resume-img" alt="resume document"/>
         </div>
       </section>
       

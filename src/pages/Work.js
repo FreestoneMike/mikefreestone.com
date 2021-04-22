@@ -26,9 +26,11 @@ function Work() {
         </div>
       </section>
       <div className="work-header__arrow-container">
-        <img src={DownArrow} alt="colourful arrow pointing down" className="work-header__arrow"/>
+        <a href="#work-anchor">
+          <img src={DownArrow} alt="colourful arrow pointing down" className="work-header__arrow"/>
+        </a>
       </div>
-      <section className="work">
+      <section className="work" id="work-anchor">
         <div className="work__projects-container">
           <ConnectMDCard />
           <ProjectCardTurf />
