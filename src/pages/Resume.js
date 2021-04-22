@@ -27,8 +27,8 @@ function Resume() {
           <img src={DownArrow} alt="colourful arrow pointing down" className="work-header__arrow"/>
         </a>
       </div>
-      <section className="resume__container">
-        <div className="resume" id="#resume-anchor">
+      <section id="resume-anchor" className="resume__container">
+        <div className="resume">
           <img src={ResumeFile} className="resume__resume-img" alt="resume document"/>
         </div>
       </section>
