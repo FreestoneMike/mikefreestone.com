@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 // ASSET IMPORTS
-import MikeLogo from "../../assets/logos/mike.svg";
+import MikeLogo from "../../assets/logos/mike-narrow.svg";
 
 // STYLES IMPORT
 import "./Nav.scss";
@@ -22,7 +24,7 @@ function Nav() {
       </div>
       <div className="nav__logo">
         <Link to="/">
-          <img src={MikeLogo} alt="mike text with multiple colours"/>
+          <img src={MikeLogo} alt="the word mike with multiple colours for each letter"/>
         </Link>
       </div>
       <div className="nav__right-container">
@@ -34,6 +36,9 @@ function Nav() {
             <Link to="/resume" className="nav__link">Resume</Link>
           </li>
         </ul>
+      </div>
+      <div className="nav__hamburger">
+        <FontAwesomeIcon icon={faBars} />
       </div>
     </nav>
   )

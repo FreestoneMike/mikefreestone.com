@@ -21,7 +21,7 @@ function MikeFreestoneCom() {
           <br/>I'm excited to continue working on it, but if you're so excited that you can't wait, you can view the code through the link below! 
         </p>
       </div>
-      <a href="https://github.com/FreestoneMike" target="blank" className="project__link">
+      <a href="https://github.com/FreestoneMike/mikefreestone.com" target="blank" className="project__link">
         View Code
       </a>
     </article>

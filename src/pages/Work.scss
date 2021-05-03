@@ -3,9 +3,7 @@
 @use "../partials/mixins" as *;
 
 .work-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   height: 43.5rem;
   width: 100%;
   flex-direction: column;
@@ -45,9 +43,7 @@
 // WORK SECTION
 
 .work {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   height: 39.5rem;
   width: 100%;
   flex-direction: column;

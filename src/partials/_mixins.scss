@@ -1,4 +1,5 @@
 @use "./animations" as *;
+@use "./variables" as *;
 
 @mixin flex-center {
   display: flex;
@@ -14,4 +15,10 @@
   height: 3px;
   width: 100%;
   animation: hover-reveal .3s ease-in-out;
+}
+
+@mixin tablet {
+  @media (max-width: $breakpoint-tablet) {
+    @content;
+  }
 }
