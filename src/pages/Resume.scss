@@ -1,16 +1,28 @@
 @use "../partials/animations" as *;
 @use "../partials/variables" as *;
+@use "../partials/mixins" as *;
 
 .resume {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding: 0 2rem;
 
+  &__resume-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   &__resume-img {
     width: 60%;
     margin-top: 3rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+    @include tablet {
+      width: 100%;
+    }
   }
   
   &__container {

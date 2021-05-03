@@ -7,6 +7,7 @@
   height: 43.5rem;
   width: 100%;
   flex-direction: column;
+  padding: 0 2rem;
 
   &__title-container {
     display: flex;
@@ -17,8 +18,14 @@
     color: $black;
     font-weight: 400;
     font-size: 3.75rem;
-    width: 38.25rem;
+    width: 100%;
+    max-width: 38.25rem;
     text-align: center;
+
+    @include tablet {
+      font-size: 2.75rem;
+      max-width: 24rem;
+    }
 
     &--green {
       color: $google-green;
@@ -44,7 +51,6 @@
 
 .work {
   @include flex-center;
-  height: 39.5rem;
   width: 100%;
   flex-direction: column;
 
@@ -52,5 +58,8 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+    margin-bottom: 3rem;
   }
 }

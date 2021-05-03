@@ -24,6 +24,9 @@ function ProjectCard() {
       <a href="https://github.com/FreestoneMike" target="blank" className="project__link">
         View Code
       </a>
+      <a href="https://turf.netlify.com" target="blank" className="project__link">
+        Demo
+      </a>
     </article>
   )
 }

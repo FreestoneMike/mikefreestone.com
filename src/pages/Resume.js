@@ -29,7 +29,7 @@ function Resume() {
       </div>
       <section id="resume-anchor" className="resume__container">
         <div className="resume">
-          <img src={ResumeFile} className="resume__resume-img" alt="resume document"/>
+          <a className="resume__resume-link" href="https://drive.google.com/file/d/13Vp5075nsuT_pe4n4uUciUg7kHO5lHbV/view?usp=sharing" target="_blank"><img src={ResumeFile} className="resume__resume-img" alt="resume document"/></a>
         </div>
       </section>
       
